@@ -1,0 +1,44 @@
+h1{
+    text-align:center;
+}
+nav{
+    text-align:center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+nav>a{
+    text-decoration:none;
+    color:black;
+    border-bottom:1px solid black;
+    width:180px;
+    margin:0 auto;
+}
+
+nav>a:hover{
+    font-weight:900;
+    border-bottom:2px solid black;
+}
+
+article{
+    text-align:center;
+}
+
+article>input[type=button]{
+    width:260px;
+    height:100px;
+    font-size:20px;
+    margin:20px;
+    background-color:white;
+    overflow:auto;
+    border: 2px solid black;
+    border-radius:10px ;
+}
+
+footer>input[type=button]{
+    background-color:white;
+    font-size:20px;
+    height:50px;
+    margin:5px;
+    border:2px solid black;
+}
